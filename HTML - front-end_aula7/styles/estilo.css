@@ -1,0 +1,96 @@
+:root{
+    --cor-de-fundo-texto: #F3DEBA;
+    --cor-header: #dbb68d;
+    --marrom-mais-escuro: #A9907E;
+    --cor-footer: #675D50;
+    --detalhes: #ABC4AA;
+    --fonte-principal: 'Dancing Script', cursive;
+}
+*{
+    margin: 0px;
+}
+header{
+    background-image: url(../images/cafe2.jpg); 
+    width: 100%;
+    height: 359px;
+}
+.itens__de__menu{
+    height: 75px;
+    background-color: var(--cor-header);
+    box-shadow: var(--marrom-mais-escuro);
+    width: 100%;
+}
+
+ul{
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 6;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+li a{
+    display: block;
+    color: var(--cor-de-fundo-texto);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+.logo{
+    width: 15%;
+}
+.icone{
+    margin: 1em 0em;
+    width: 10%;
+}
+.texto__primario{
+
+    margin: 6em 6em ;
+    text-align: center;
+    color: var(--cor-de-fundo-texto);
+    font-family: var(--fonte-principal);
+    text-shadow: 1px 1px;
+    -webkit-text-fill-color: var(--cor-footer);
+    
+}
+.texto__primario h1{
+
+    margin: 1em 1em;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: var(--cor-de-fundo-texto);
+    padding-top: 1em;
+}
+.container img{
+    border-color: var(--marrom-mais-escuro);
+    border-style: solid;
+    border-width: medium;
+    width: 100%;
+    margin: 0px 5px;
+
+}
+#card{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#card div{
+    text-align: center;
+    margin: 1em 2em;
+    width: 60%;
+
+    font-family: var(--fonte-principal);
+}
+#card h1{
+    font-size: 36px;
+    -webkit-text-stroke: var(--cor-footer) 1px;
+    color: var(--marrom-mais-escuro);
+}
+#card p{
+    font-size: 24px;
+    color: var(--cor-header);
+    
+}
